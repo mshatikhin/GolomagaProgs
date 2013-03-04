@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+    <name>prog2</name>
+    <!-- Следующие элементы необязательны -->
+    <creationDate>Февраль 2012</creationDate>
+    <author>Шатихин Михаил</author>
+    <authorEmail>promike@bk.ru</authorEmail>
+    <authorUrl>promike.ru</authorUrl>
+    <copyright>Copy for die!</copyright>
+    <license>(c)</license>
+    <!--  Версия записывается в таблицу компонентов -->
+    <version>0.9.0</version>
+    <!-- Описание необязательно -->
+    <description>Описание компонента Prog2! ...</description>
+ 
+    <!-- Запускается при обновлении -->
+ <!-- Запускается при обновлении -->
+		<update>
+		  <schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		  </schemas>
+		</update>
+    <!-- Раздел основных файлов сайта -->
+    <!-- Обратите внимание на значение аттрибута folder: Этот аттрибут описывает папку нашего пакета-установщика из которой должны копироваться файлы.
+    Поэтому указанные в этом разделе файлы будут скопированы из папки /site/ нашего пакета-установщика в соответствующую папку установки. -->
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>prog2.php</filename>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>tmpl</folder>
+    </files>
+ 
+    <!-- Администрирование -->
+        <administration>
+            <!-- Раздел Меню -->
+            <menu>Promike prog2</menu>
+            <!-- Раздел основных файлов администрирования  -->
+            <!-- Обратите внимание на значение аттрибута folder: Этот аттрибут описывает папку нашего пакета-установщика из которой должны копироваться файлы.
+            Поэтому указанные в этом разделе файлы будут скопированы из папки /admin/ нашего пакета-установщика в соответствующую папку установки. -->
+            <files folder="admin">
+                <filename>index.html</filename>
+                <filename>prog2.php</filename>
+				<folder>sql</folder>
+            </files>
+    </administration>
+ 
+</extension>

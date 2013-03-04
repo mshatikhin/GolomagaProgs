@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	  type="module"
+	  version="1.6.0"
+	  client="site"
+	  method="upgrade">
+	  
+    <name>prog</name>    
+    <creationDate>Февраль 2012</creationDate>
+    <author>Шатихин Михаил</author>
+    <authorEmail>promike@bk.ru</authorEmail>
+    <authorUrl>promike.ru</authorUrl>
+    <copyright>Copy for die!</copyright>
+    <license>(c)</license>
+    <version>0.9.0</version>
+    <description>Описание компонента Prog! ...</description>
+
+    <files>
+        <filename>index.html</filename>
+        <filename module="mod_prog">mod_prog.php</filename>
+        <folder>elements</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>tmpl</folder>
+    </files> 
+</extension>
