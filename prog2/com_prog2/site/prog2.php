@@ -15,7 +15,7 @@ $doc->addStyleSheet( 'components/com_prog2/tmpl/normalize.css' );
 <script type="text/javascript" src="<?php echo $mosConfig_live_site; ?>/components/com_prog2/js/main3_2.js"></script>
 <script type="text/javascript" src="<?php echo $mosConfig_live_site; ?>/components/com_prog2/js/main4_2.js"></script>
 <script type="text/javascript" src="<?php echo $mosConfig_live_site; ?>/components/com_prog2/js/main5_2.js"></script>
-<script type="text/javascript" src="<?php echo $mosConfig_live_site; ?>/components/com_prog2/js/main6_2.js"></script>
+<script type="text/javascript" src="<?php echo $mosConfig_live_site; ?>/components/com_prog2/js/main6_6.js"></script>
 <script type="text/javascript" src="<?php echo $mosConfig_live_site; ?>/components/com_prog2/js/switcher.js"></script> 
 <div id="body">	
   <div>
@@ -11180,7 +11180,7 @@ $doc->addStyleSheet( 'components/com_prog2/tmpl/normalize.css' );
         </td>
     </tr>
     <tr>
-    	<td>Добавленная стоимость</td>
+    	<td>Рыночная стоимость</td>
         <td>&nbsp;<input type="text" id="dobav-6"/><a href="#" class="clear" id="-dobav-6">X</a>
         </td>
     </tr>
